@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    font-weight: normal;
+}
+
+
+.profile-image {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+}
+
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h3 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #2c3e50;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #34495e;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
